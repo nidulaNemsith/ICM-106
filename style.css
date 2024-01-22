@@ -1,0 +1,227 @@
+/*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
+
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+    all: unset;
+    display: revert;
+  }
+  
+  /* Preferred box-sizing value */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /*
+    Remove list styles (bullets/numbers)
+    in case you use it with normalize.css
+  */
+  ol, ul {
+    list-style: none;
+  }
+  
+  /* For images to not be able to exceed their container */
+  img {
+    max-width: 100%;
+  }
+  
+  /* Removes spacing between cells in tables */
+  table {
+    border-collapse: collapse;
+  }
+  
+  /* Revert the 'white-space' property for textarea elements on Safari */
+  textarea {
+    white-space: revert;
+  }
+
+  /* -----------------Reset CSS end---------------- */
+
+.header{
+  background-color:  3F72AF;
+  background-image: linear-gradient( 415a77,lightblue);
+  border-radius: 20px;
+  margin: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px ;
+  font-size: xx-large;
+  box-shadow: 10px 10px 5px rgb(156, 181, 189);
+}
+
+.h1{
+  color: antiquewhite;
+}
+
+
+body{
+  background-color: F9F7F7;
+}
+
+.section01{
+  margin: 50px;
+  border-radius: 20px;
+  padding-left: 250px;
+  display: flex;
+}
+
+.profileIMG{
+  border-radius: 30px;
+  display: block;
+  padding: auto;
+  margin:10px;
+  width: 200px;
+  float: left;
+}
+
+.contact{
+  
+  border-radius: 20px;
+  margin: 20px;
+}
+
+#contactInfo{
+  padding: 20px;
+  background-color: DBE2EF;
+  border-radius: 20px;
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  line-height: 40px;
+}
+
+.aboutMeHead{
+  padding-top: 30px;
+  padding-bottom: 20px ;
+  font-size: x-large;
+  font-weight: 200;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color:86B6F6;
+  border-radius: 20px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+#abo{
+   background-color: DBE2EF;
+   /*background-image: linear-gradient;*/
+   border-radius: 20px;
+   padding:10px;
+   margin: 20px;
+
+
+}
+.aboutMeInfo{
+
+  margin: 50px;
+  text-align: justify;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium';
+  line-height: 30px;
+  padding: 20px;
+
+
+}
+
+.headEdu{
+  padding-top: 30px;
+  padding-bottom: 20px ;
+  font-size: x-large;
+  font-weight: 200;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color:86B6F6;
+  border-radius: 20px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+.listedu{
+  border-radius: 20px;
+  background-color: #cfdee7;
+  list-style-type:square;
+  padding: 20px;
+  margin: 20px;
+  font-size: larger;
+  line-height: 30px;
+}
+
+#olResults {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#olResults td, #olResults th {
+  border: 1px solid #3991da;
+  padding: 8px;
+}
+
+#olResults tr:nth-child(even){background-color: #cfdee7;}
+#olResults tr:nth-child(odd){background-color: #cfdee7;}
+
+#olResults tr:hover {background-color: #ddd;}
+
+#olResults th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0f437e;
+  color: white;
+}
+
+.tableOl{
+  padding: 10px;
+  margin: 20px;
+}
+
+#ol{
+  font-size: larger;
+  font-style: oblique;
+  padding: 10px;
+}
+
+#alResults {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#alResults td, #alResults th {
+  border: 1px solid #3991da;
+  padding: 8px;
+}
+
+#alResults tr:nth-child(even){background-color: #cfdee7;}
+#alResults tr:nth-child(odd){background-color: #cfdee7;}
+
+#alResults tr:hover {background-color: #ddd;}
+
+#alResults th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0f437e;
+  color: white;
+}
+
+.tableAl{
+  padding: 10px;
+  margin: 20px;
+}
+
+.footer {
+  background-color: 3F72AF;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
